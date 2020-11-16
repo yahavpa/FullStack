@@ -1,0 +1,277 @@
+{
+  "uid" : "23601f00b2a95689",
+  "name" : "Test03: Remove Item from Cart",
+  "fullName" : "SanityTests.nopCommerceWeb.test03_removeFromCart",
+  "historyId" : "5720d7de6c9f34f5111aec68433afb48",
+  "time" : {
+    "start" : 1605554535289,
+    "stop" : 1605554547454,
+    "duration" : 12165
+  },
+  "description" : "Test Description: Remove item from nopCommerce web application shopping cart",
+  "descriptionHtml" : "<p>Test Description: Remove item from nopCommerce web application shopping cart</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1605554504127,
+      "stop" : 1605554517817,
+      "duration" : 13690
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description: Remove item from nopCommerce web application shopping cart",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Add Item to Cart",
+      "time" : {
+        "start" : 1605554535289,
+        "stop" : 1605554544441,
+        "duration" : 9152
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Mouse Hover to Element",
+        "time" : {
+          "start" : 1605554535345,
+          "stop" : 1605554536980,
+          "duration" : 1635
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem1",
+          "value" : "[[ChromeDriver: chrome on XP (901939b6fbca4bf64727af93ffc829e0)] -> xpath: //ul[@class='top-menu notmobile']/li[2]/a['Electronics']]"
+        }, {
+          "name" : "elem2",
+          "value" : "[[ChromeDriver: chrome on XP (901939b6fbca4bf64727af93ffc829e0)] -> xpath: //ul[@class='top-menu notmobile']/li[2]/ul/li[2]/a['Cell phones']]"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1605554537993,
+          "stop" : 1605554538174,
+          "duration" : 181
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on XP (901939b6fbca4bf64727af93ffc829e0)] -> xpath: //input[@class='button-2 product-box-add-to-cart-button']]"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Mouse Hover to Element",
+        "time" : {
+          "start" : 1605554543261,
+          "stop" : 1605554544441,
+          "duration" : 1180
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem1",
+          "value" : "[[ChromeDriver: chrome on XP (901939b6fbca4bf64727af93ffc829e0)] -> css selector: .cart-label]"
+        }, {
+          "name" : "elem2",
+          "value" : "[[ChromeDriver: chrome on XP (901939b6fbca4bf64727af93ffc829e0)] -> xpath: //input[@value='Go to cart']]"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 3
+    }, {
+      "name" : "Mouse Hover to Element",
+      "time" : {
+        "start" : 1605554544470,
+        "stop" : 1605554545463,
+        "duration" : 993
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elem1",
+        "value" : "[[ChromeDriver: chrome on XP (901939b6fbca4bf64727af93ffc829e0)] -> css selector: .cart-label]"
+      }, {
+        "name" : "elem2",
+        "value" : "[[ChromeDriver: chrome on XP (901939b6fbca4bf64727af93ffc829e0)] -> xpath: //input[@value='Go to cart']]"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Click on Element",
+      "time" : {
+        "start" : 1605554545480,
+        "stop" : 1605554545580,
+        "duration" : 100
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elem",
+        "value" : "[[ChromeDriver: chrome on XP (901939b6fbca4bf64727af93ffc829e0)] -> name: removefromcart]"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Click on Element",
+      "time" : {
+        "start" : 1605554545591,
+        "stop" : 1605554547379,
+        "duration" : 1788
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elem",
+        "value" : "[[ChromeDriver: chrome on XP (901939b6fbca4bf64727af93ffc829e0)] -> name: updatecart]"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Verify Text in Element",
+      "time" : {
+        "start" : 1605554547399,
+        "stop" : 1605554547453,
+        "duration" : 54
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elem",
+        "value" : "[[ChromeDriver: chrome on XP (901939b6fbca4bf64727af93ffc829e0)] -> class name: no-data]"
+      }, {
+        "name" : "expectedValue",
+        "value" : "Your Shopping Cart is empty!"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 8
+  },
+  "afterStages" : [ {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1605554555465,
+      "stop" : 1605554557821,
+      "duration" : 2356
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1605554547456,
+      "stop" : 1605554548174,
+      "duration" : 718
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "SanityTests.nopCommerceWeb"
+  }, {
+    "name" : "testClass",
+    "value" : "SanityTests.nopCommerceWeb"
+  }, {
+    "name" : "testMethod",
+    "value" : "test03_removeFromCart"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "SanityTests.nopCommerceWeb"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-ARQUAKT"
+  }, {
+    "name" : "thread",
+    "value" : "5028@DESKTOP-ARQUAKT.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "web"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "23601f00b2a95689.json",
+  "parameterValues" : [ "web" ]
+}

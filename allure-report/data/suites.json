@@ -1,0 +1,168 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Suite",
+    "children" : [ {
+      "name" : "Web Tests",
+      "children" : [ {
+        "name" : "SanityTests.nopCommerceWeb",
+        "children" : [ {
+          "name" : "Test01: Register to nopCommerce",
+          "uid" : "c2b7fc89ec488afe",
+          "parentUid" : "515a3ef1b531a93ddc047374a8b73a8a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1605554743249,
+            "stop" : 1605554750091,
+            "duration" : 6842
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "web" ]
+        }, {
+          "name" : "Test02: Add Item to Cart",
+          "uid" : "4c6ca8b9127818f3",
+          "parentUid" : "515a3ef1b531a93ddc047374a8b73a8a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1605554751864,
+            "stop" : 1605554761217,
+            "duration" : 9353
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "web" ]
+        }, {
+          "name" : "Test03: Remove Item from Cart",
+          "uid" : "a721eb20ed852c3f",
+          "parentUid" : "515a3ef1b531a93ddc047374a8b73a8a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1605554761973,
+            "stop" : 1605554773240,
+            "duration" : 11267
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "web" ]
+        }, {
+          "name" : "Test04: Sorting items",
+          "uid" : "5ba412c532f96152",
+          "parentUid" : "515a3ef1b531a93ddc047374a8b73a8a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1605554775263,
+            "stop" : 1605554777790,
+            "duration" : 2527
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "web" ]
+        }, {
+          "name" : "Test05: Empty Search Popup Alert",
+          "uid" : "5c062c2eccc1d301",
+          "parentUid" : "515a3ef1b531a93ddc047374a8b73a8a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1605554778556,
+            "stop" : 1605554778769,
+            "duration" : 213
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "web" ]
+        }, {
+          "name" : "Test06: Verify nopCommerce Logo",
+          "uid" : "c6093bba8dc5b8b2",
+          "parentUid" : "515a3ef1b531a93ddc047374a8b73a8a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1605554779496,
+            "stop" : 1605554780845,
+            "duration" : 1349
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "web" ]
+        }, {
+          "name" : "Test07: Verify Elements Location By Y Axis",
+          "uid" : "20a9c7251694b085",
+          "parentUid" : "515a3ef1b531a93ddc047374a8b73a8a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1605554781488,
+            "stop" : 1605554781927,
+            "duration" : 439
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "web" ]
+        } ],
+        "uid" : "515a3ef1b531a93ddc047374a8b73a8a"
+      } ],
+      "uid" : "021ae6ebaf24613400055f41a8f6b406"
+    }, {
+      "name" : "API Tests",
+      "children" : [ {
+        "name" : "SanityTests.JSONServerAPI",
+        "children" : [ {
+          "name" : "Test01: Add Section And Verify it",
+          "uid" : "b416bb77f50370c2",
+          "parentUid" : "091d75028b897f0e9a6deb806eb62289",
+          "status" : "passed",
+          "time" : {
+            "start" : 1605554946844,
+            "stop" : 1605554951262,
+            "duration" : 4418
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "api" ]
+        }, {
+          "name" : "Test02: Get Property From JSON Server",
+          "uid" : "c908ec1f8d79352b",
+          "parentUid" : "091d75028b897f0e9a6deb806eb62289",
+          "status" : "passed",
+          "time" : {
+            "start" : 1605554951848,
+            "stop" : 1605554953724,
+            "duration" : 1876
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "api" ]
+        }, {
+          "name" : "Test03: Update Section And Verify it",
+          "uid" : "44c87932c8d03cf5",
+          "parentUid" : "091d75028b897f0e9a6deb806eb62289",
+          "status" : "passed",
+          "time" : {
+            "start" : 1605554953788,
+            "stop" : 1605554953879,
+            "duration" : 91
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "api" ]
+        }, {
+          "name" : "Test04: Delete Section And Verify it",
+          "uid" : "269deae08679243e",
+          "parentUid" : "091d75028b897f0e9a6deb806eb62289",
+          "status" : "passed",
+          "time" : {
+            "start" : 1605554953971,
+            "stop" : 1605554954005,
+            "duration" : 34
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "api" ]
+        } ],
+        "uid" : "091d75028b897f0e9a6deb806eb62289"
+      } ],
+      "uid" : "4ed70f54fda3286e80a05bd83e56a3ad"
+    } ],
+    "uid" : "29f4dcc45a0e26cd7c7462063cee854b"
+  } ]
+}

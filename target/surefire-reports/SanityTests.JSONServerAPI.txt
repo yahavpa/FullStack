@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: SanityTests.JSONServerAPI
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 22.29 s <<< FAILURE! - in SanityTests.JSONServerAPI
+test01_addSectionAndVerify(SanityTests.JSONServerAPI)  Time elapsed: 0.762 s  <<< FAILURE!
+java.lang.NullPointerException
+	at SanityTests.JSONServerAPI.test01_addSectionAndVerify(JSONServerAPI.java:17)
+
+test02_GetProperty(SanityTests.JSONServerAPI)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+	at SanityTests.JSONServerAPI.test02_GetProperty(JSONServerAPI.java:25)
+
+test03_updateSectionAndVerify(SanityTests.JSONServerAPI)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at SanityTests.JSONServerAPI.test03_updateSectionAndVerify(JSONServerAPI.java:33)
+
+test04_deleteSection(SanityTests.JSONServerAPI)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.NullPointerException
+	at SanityTests.JSONServerAPI.test04_deleteSection(JSONServerAPI.java:41)
+

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b289bdb8-7977-4350-9765-51816e596e6e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="XSLT Stylesheet" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aoXLxbaNZbrChZ790drYd4yBlQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Automation\FullStack" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.C:/Automation/FullStack/executeWeb.xml">
+    <configuration name="C:/Automation/FullStack/executeAPI.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FullStack" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/executeAPI.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Automation/FullStack/executeWeb.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FullStack" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/executeWeb.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JSONServerAPI" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FullStack" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SanityTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SanityTests" />
+      <option name="MAIN_CLASS_NAME" value="SanityTests.JSONServerAPI" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="nopCommerceWeb" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FullStack" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SanityTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SanityTests" />
+      <option name="MAIN_CLASS_NAME" value="SanityTests.nopCommerceWeb" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="nopCommerceWeb.test01_register" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FullStack" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SanityTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SanityTests" />
+      <option name="MAIN_CLASS_NAME" value="SanityTests.nopCommerceWeb" />
+      <option name="METHOD_NAME" value="test01_register" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C:/Automation/FullStack/executeWeb.xml" />
+        <item itemvalue="TestNG.C:/Automation/FullStack/executeAPI.xml" />
+        <item itemvalue="TestNG.nopCommerceWeb" />
+        <item itemvalue="TestNG.JSONServerAPI" />
+        <item itemvalue="TestNG.nopCommerceWeb.test01_register" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b289bdb8-7977-4350-9765-51816e596e6e" name="Default Changelist" comment="" />
+      <created>1587402867265</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587402867265</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-953" y="107" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605551028091">
+      <screen x="-1366" y="-6" width="1366" height="728" />
+    </state>
+    <state x="-953" y="107" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1366.-6.1366.728/0.0.1920.1160@-1366.-6.1366.728" timestamp="1605551028091" />
+    <state width="1323" height="256" key="GridCell.Tab.0.bottom" timestamp="1605553753057">
+      <screen x="-1366" y="-6" width="1366" height="728" />
+    </state>
+    <state width="1323" height="256" key="GridCell.Tab.0.bottom/-1366.-6.1366.728/0.0.1920.1160@-1366.-6.1366.728" timestamp="1605553753057" />
+    <state width="1877" height="256" key="GridCell.Tab.0.bottom/-1366.-6.1366.728/0.0.1920.1160@0.0.1920.1160" timestamp="1604954695824" />
+    <state width="1323" height="256" key="GridCell.Tab.0.center" timestamp="1605553753057">
+      <screen x="-1366" y="-6" width="1366" height="728" />
+    </state>
+    <state width="1323" height="256" key="GridCell.Tab.0.center/-1366.-6.1366.728/0.0.1920.1160@-1366.-6.1366.728" timestamp="1605553753057" />
+    <state width="1877" height="256" key="GridCell.Tab.0.center/-1366.-6.1366.728/0.0.1920.1160@0.0.1920.1160" timestamp="1604954695824" />
+    <state width="1323" height="256" key="GridCell.Tab.0.left" timestamp="1605553753056">
+      <screen x="-1366" y="-6" width="1366" height="728" />
+    </state>
+    <state width="1323" height="256" key="GridCell.Tab.0.left/-1366.-6.1366.728/0.0.1920.1160@-1366.-6.1366.728" timestamp="1605553753056" />
+    <state width="1877" height="256" key="GridCell.Tab.0.left/-1366.-6.1366.728/0.0.1920.1160@0.0.1920.1160" timestamp="1604954695824" />
+    <state width="1323" height="256" key="GridCell.Tab.0.right" timestamp="1605553753057">
+      <screen x="-1366" y="-6" width="1366" height="728" />
+    </state>
+    <state width="1323" height="256" key="GridCell.Tab.0.right/-1366.-6.1366.728/0.0.1920.1160@-1366.-6.1366.728" timestamp="1605553753057" />
+    <state width="1877" height="256" key="GridCell.Tab.0.right/-1366.-6.1366.728/0.0.1920.1160@0.0.1920.1160" timestamp="1604954695824" />
+    <state x="-1020" y="43" width="672" height="678" key="search.everywhere.popup" timestamp="1605552910762">
+      <screen x="-1366" y="-6" width="1366" height="728" />
+    </state>
+    <state x="-1020" y="43" width="672" height="678" key="search.everywhere.popup/-1366.-6.1366.728/0.0.1920.1160@-1366.-6.1366.728" timestamp="1605552910762" />
+  </component>
+</project>

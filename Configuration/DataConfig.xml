@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Environment>
+    <!-- TimeOut -->
+    <TimeOut>5</TimeOut>
+
+    <!-- Web -->
+    <BrowserName>Chrome</BrowserName>
+    <url>https://demo.nopcommerce.com</url>
+    <ImageRepo>./imageRepository/</ImageRepo>
+    <!-- Web.Sorting By -->
+    <SortingMethod>Price: High to Low</SortingMethod>
+    <expItem1>Nokia Lumia 1020</expItem1>
+    <expItem2>HTC One M8 Android L 5.0 Lollipop</expItem2>
+    <expItem3>HTC One Mini Blue</expItem3>
+    <!-- Web.UserDetails -->
+    <FirstName>tester</FirstName>
+    <LastNmae>test</LastNmae>
+    <Password>123456</Password>
+
+    <!-- Mobile -->
+    <UDID>b76c094b</UDID>
+    <APP_PACKAGE>nopCommerce.nopCommerce</APP_PACKAGE>
+    <APP_ACTIVITY>md5c11bc26ecd64114bc225ca66c2e628ba.SplashActivity</APP_ACTIVITY>
+    <MobileUrl>http://localhost:4723/wd/hub</MobileUrl>
+    <!-- Mobile.Items -->
+    <SearchInput>nike</SearchInput>
+    <MobileExp1>Nike Floral Roshe Customized Running Shoes</MobileExp1>
+    <MobileExp2>Nike SB Zoom Stefan Janoski "Medium Mint"</MobileExp2>
+    <MobileExp3>Nike Tailwind Loose Short-Sleeve Running Shirt</MobileExp3>
+    <expCurrency>Euro</expCurrency>
+    <priceCurrency>€38,00</priceCurrency>
+
+    <!-- API -->
+    <url_api>http://localhost:3000</url_api>
+
+    <!-- DB -->
+    <dbURL>jdbc:mysql://remotemysql.com:3306/WYwUVxixpg</dbURL>
+    <dbUser>WYwUVxixpg</dbUser>
+    <dbPassword>4MHQxjU3dl</dbPassword>
+
+</Environment>

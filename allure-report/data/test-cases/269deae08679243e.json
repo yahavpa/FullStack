@@ -1,0 +1,222 @@
+{
+  "uid" : "269deae08679243e",
+  "name" : "Test04: Delete Section And Verify it",
+  "fullName" : "SanityTests.JSONServerAPI.test04_deleteSection",
+  "historyId" : "8066f59e8fbcb608606a318b16ec961d",
+  "time" : {
+    "start" : 1605554953971,
+    "stop" : 1605554954005,
+    "duration" : 34
+  },
+  "description" : "Test Description: Delete section in JSON server and verify it",
+  "descriptionHtml" : "<p>Test Description: Delete section in JSON server and verify it</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1605554940049,
+      "stop" : 1605554946695,
+      "duration" : 6646
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description: Delete section in JSON server and verify it",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Delete Section in Server",
+      "time" : {
+        "start" : 1605554953971,
+        "stop" : 1605554954004,
+        "duration" : 33
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Delete Data from Server",
+        "time" : {
+          "start" : 1605554953971,
+          "stop" : 1605554954004,
+          "duration" : 33
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "resource",
+          "value" : "/posts/1"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "id",
+        "value" : "1"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Verify Text with Text",
+      "time" : {
+        "start" : 1605554954004,
+        "stop" : 1605554954004,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actualText",
+        "value" : "200"
+      }, {
+        "name" : "expectedText",
+        "value" : "200"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1605554954008,
+      "stop" : 1605554954008,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1605554954010,
+      "stop" : 1605554954014,
+      "duration" : 4
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "SanityTests.JSONServerAPI"
+  }, {
+    "name" : "testClass",
+    "value" : "SanityTests.JSONServerAPI"
+  }, {
+    "name" : "testMethod",
+    "value" : "test04_deleteSection"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "API Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "SanityTests.JSONServerAPI"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-ARQUAKT"
+  }, {
+    "name" : "thread",
+    "value" : "11256@DESKTOP-ARQUAKT.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "api"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d04f60ce99f2855d",
+      "status" : "broken",
+      "statusDetails" : "Connection refused: connect",
+      "time" : {
+        "start" : 1605554880381,
+        "stop" : 1605554884402,
+        "duration" : 4021
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "e593422fbf993fb3",
+        "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20API/7/allure/#testresult/e593422fbf993fb3",
+        "status" : "broken",
+        "statusDetails" : "Connection refused: connect",
+        "time" : {
+          "start" : 1605554880381,
+          "stop" : 1605554884402,
+          "duration" : 4021
+        }
+      }, {
+        "uid" : "4dad0d75074b72e1",
+        "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20API/5/allure/#testresult/4dad0d75074b72e1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604955200385,
+          "stop" : 1604955200429,
+          "duration" : 44
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "269deae08679243e.json",
+  "parameterValues" : [ "api" ]
+}

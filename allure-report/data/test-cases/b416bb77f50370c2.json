@@ -1,0 +1,228 @@
+{
+  "uid" : "b416bb77f50370c2",
+  "name" : "Test01: Add Section And Verify it",
+  "fullName" : "SanityTests.JSONServerAPI.test01_addSectionAndVerify",
+  "historyId" : "221963bced86ad890c74777b54530ff9",
+  "time" : {
+    "start" : 1605554946844,
+    "stop" : 1605554951262,
+    "duration" : 4418
+  },
+  "description" : "Test Description: Add section to JSON server and verify it",
+  "descriptionHtml" : "<p>Test Description: Add section to JSON server and verify it</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1605554940049,
+      "stop" : 1605554946695,
+      "duration" : 6646
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description: Add section to JSON server and verify it",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Create New Section to Server",
+      "time" : {
+        "start" : 1605554947028,
+        "stop" : 1605554951224,
+        "duration" : 4196
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Post Data to Server",
+        "time" : {
+          "start" : 1605554947071,
+          "stop" : 1605554951222,
+          "duration" : 4151
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "params",
+          "value" : "{\"author\":\"ATeam\",\"title\":\"Server\"}"
+        }, {
+          "name" : "resource",
+          "value" : "/posts"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "title",
+        "value" : "Server"
+      }, {
+        "name" : "author",
+        "value" : "ATeam"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Verify Text with Text",
+      "time" : {
+        "start" : 1605554951246,
+        "stop" : 1605554951251,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actualText",
+        "value" : "201"
+      }, {
+        "name" : "expectedText",
+        "value" : "201"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1605554954010,
+      "stop" : 1605554954014,
+      "duration" : 4
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1605554951825,
+      "stop" : 1605554951825,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "SanityTests.JSONServerAPI"
+  }, {
+    "name" : "testClass",
+    "value" : "SanityTests.JSONServerAPI"
+  }, {
+    "name" : "testMethod",
+    "value" : "test01_addSectionAndVerify"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "API Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "SanityTests.JSONServerAPI"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-ARQUAKT"
+  }, {
+    "name" : "thread",
+    "value" : "11256@DESKTOP-ARQUAKT.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "api"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "743f7724ba6bab16",
+      "status" : "broken",
+      "statusDetails" : "Connection refused: connect",
+      "time" : {
+        "start" : 1605554862913,
+        "stop" : 1605554871409,
+        "duration" : 8496
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "c6a51935c71ae276",
+        "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20API/7/allure/#testresult/c6a51935c71ae276",
+        "status" : "broken",
+        "statusDetails" : "Connection refused: connect",
+        "time" : {
+          "start" : 1605554862913,
+          "stop" : 1605554871409,
+          "duration" : 8496
+        }
+      }, {
+        "uid" : "22f94c7a76b95f97",
+        "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20API/5/allure/#testresult/22f94c7a76b95f97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604955192496,
+          "stop" : 1604955197155,
+          "duration" : 4659
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b416bb77f50370c2.json",
+  "parameterValues" : [ "api" ]
+}

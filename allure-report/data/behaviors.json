@@ -1,0 +1,148 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Test01: Register to nopCommerce",
+    "uid" : "c2b7fc89ec488afe",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1605554743249,
+      "stop" : 1605554750091,
+      "duration" : 6842
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "web" ]
+  }, {
+    "name" : "Test02: Add Item to Cart",
+    "uid" : "4c6ca8b9127818f3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1605554751864,
+      "stop" : 1605554761217,
+      "duration" : 9353
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "web" ]
+  }, {
+    "name" : "Test03: Remove Item from Cart",
+    "uid" : "a721eb20ed852c3f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1605554761973,
+      "stop" : 1605554773240,
+      "duration" : 11267
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "web" ]
+  }, {
+    "name" : "Test04: Sorting items",
+    "uid" : "5ba412c532f96152",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1605554775263,
+      "stop" : 1605554777790,
+      "duration" : 2527
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "web" ]
+  }, {
+    "name" : "Test05: Empty Search Popup Alert",
+    "uid" : "5c062c2eccc1d301",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1605554778556,
+      "stop" : 1605554778769,
+      "duration" : 213
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "web" ]
+  }, {
+    "name" : "Test06: Verify nopCommerce Logo",
+    "uid" : "c6093bba8dc5b8b2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1605554779496,
+      "stop" : 1605554780845,
+      "duration" : 1349
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "web" ]
+  }, {
+    "name" : "Test07: Verify Elements Location By Y Axis",
+    "uid" : "20a9c7251694b085",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1605554781488,
+      "stop" : 1605554781927,
+      "duration" : 439
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "web" ]
+  }, {
+    "name" : "Test01: Add Section And Verify it",
+    "uid" : "b416bb77f50370c2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1605554946844,
+      "stop" : 1605554951262,
+      "duration" : 4418
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "api" ]
+  }, {
+    "name" : "Test02: Get Property From JSON Server",
+    "uid" : "c908ec1f8d79352b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1605554951848,
+      "stop" : 1605554953724,
+      "duration" : 1876
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "api" ]
+  }, {
+    "name" : "Test03: Update Section And Verify it",
+    "uid" : "44c87932c8d03cf5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1605554953788,
+      "stop" : 1605554953879,
+      "duration" : 91
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "api" ]
+  }, {
+    "name" : "Test04: Delete Section And Verify it",
+    "uid" : "269deae08679243e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1605554953971,
+      "stop" : 1605554954005,
+      "duration" : 34
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "api" ]
+  } ]
+}

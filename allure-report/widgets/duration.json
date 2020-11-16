@@ -1,0 +1,111 @@
+[ {
+  "uid" : "4c6ca8b9127818f3",
+  "name" : "Test02: Add Item to Cart",
+  "time" : {
+    "start" : 1605554751864,
+    "stop" : 1605554761217,
+    "duration" : 9353
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5ba412c532f96152",
+  "name" : "Test04: Sorting items",
+  "time" : {
+    "start" : 1605554775263,
+    "stop" : 1605554777790,
+    "duration" : 2527
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c2b7fc89ec488afe",
+  "name" : "Test01: Register to nopCommerce",
+  "time" : {
+    "start" : 1605554743249,
+    "stop" : 1605554750091,
+    "duration" : 6842
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "44c87932c8d03cf5",
+  "name" : "Test03: Update Section And Verify it",
+  "time" : {
+    "start" : 1605554953788,
+    "stop" : 1605554953879,
+    "duration" : 91
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c6093bba8dc5b8b2",
+  "name" : "Test06: Verify nopCommerce Logo",
+  "time" : {
+    "start" : 1605554779496,
+    "stop" : 1605554780845,
+    "duration" : 1349
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "269deae08679243e",
+  "name" : "Test04: Delete Section And Verify it",
+  "time" : {
+    "start" : 1605554953971,
+    "stop" : 1605554954005,
+    "duration" : 34
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b416bb77f50370c2",
+  "name" : "Test01: Add Section And Verify it",
+  "time" : {
+    "start" : 1605554946844,
+    "stop" : 1605554951262,
+    "duration" : 4418
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5c062c2eccc1d301",
+  "name" : "Test05: Empty Search Popup Alert",
+  "time" : {
+    "start" : 1605554778556,
+    "stop" : 1605554778769,
+    "duration" : 213
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c908ec1f8d79352b",
+  "name" : "Test02: Get Property From JSON Server",
+  "time" : {
+    "start" : 1605554951848,
+    "stop" : 1605554953724,
+    "duration" : 1876
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "20a9c7251694b085",
+  "name" : "Test07: Verify Elements Location By Y Axis",
+  "time" : {
+    "start" : 1605554781488,
+    "stop" : 1605554781927,
+    "duration" : 439
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a721eb20ed852c3f",
+  "name" : "Test03: Remove Item from Cart",
+  "time" : {
+    "start" : 1605554761973,
+    "stop" : 1605554773240,
+    "duration" : 11267
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

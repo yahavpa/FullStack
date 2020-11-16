@@ -1,0 +1,311 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-ARQUAKT",
+    "children" : [ {
+      "name" : "11256@DESKTOP-ARQUAKT.main(1)",
+      "children" : [ {
+        "name" : "Test02: Get Property From JSON Server",
+        "uid" : "c908ec1f8d79352b",
+        "parentUid" : "3763993d59d284805668d98d43faea63",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605554951848,
+          "stop" : 1605554953724,
+          "duration" : 1876
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      }, {
+        "name" : "Test04: Delete Section And Verify it",
+        "uid" : "269deae08679243e",
+        "parentUid" : "3763993d59d284805668d98d43faea63",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605554953971,
+          "stop" : 1605554954005,
+          "duration" : 34
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      }, {
+        "name" : "Test03: Update Section And Verify it",
+        "uid" : "44c87932c8d03cf5",
+        "parentUid" : "3763993d59d284805668d98d43faea63",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605554953788,
+          "stop" : 1605554953879,
+          "duration" : 91
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      }, {
+        "name" : "Test01: Add Section And Verify it",
+        "uid" : "b416bb77f50370c2",
+        "parentUid" : "3763993d59d284805668d98d43faea63",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605554946844,
+          "stop" : 1605554951262,
+          "duration" : 4418
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      } ],
+      "uid" : "3763993d59d284805668d98d43faea63"
+    }, {
+      "name" : "5028@DESKTOP-ARQUAKT.main(1)",
+      "children" : [ {
+        "name" : "Test01: Register to nopCommerce",
+        "uid" : "6ebc7b948c8c1a02",
+        "parentUid" : "6bcad960e6a86f31cd19a0b58f211b4f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605554517977,
+          "stop" : 1605554524566,
+          "duration" : 6589
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test03: Remove Item from Cart",
+        "uid" : "23601f00b2a95689",
+        "parentUid" : "6bcad960e6a86f31cd19a0b58f211b4f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605554535289,
+          "stop" : 1605554547454,
+          "duration" : 12165
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test06: Verify nopCommerce Logo",
+        "uid" : "cf21cb129ed3c7f2",
+        "parentUid" : "6bcad960e6a86f31cd19a0b58f211b4f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605554552387,
+          "stop" : 1605554553691,
+          "duration" : 1304
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test05: Empty Search Popup Alert",
+        "uid" : "a82a6203080f75f8",
+        "parentUid" : "6bcad960e6a86f31cd19a0b58f211b4f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605554551408,
+          "stop" : 1605554551809,
+          "duration" : 401
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test02: Add Item to Cart",
+        "uid" : "66d740877712cf35",
+        "parentUid" : "6bcad960e6a86f31cd19a0b58f211b4f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1605554526251,
+          "stop" : 1605554534477,
+          "duration" : 8226
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test04: Sorting items",
+        "uid" : "86497c6088a02e6d",
+        "parentUid" : "6bcad960e6a86f31cd19a0b58f211b4f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605554548179,
+          "stop" : 1605554550750,
+          "duration" : 2571
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test07: Verify Elements Location By Y Axis",
+        "uid" : "cd8916a4c4b4e889",
+        "parentUid" : "6bcad960e6a86f31cd19a0b58f211b4f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605554554277,
+          "stop" : 1605554554874,
+          "duration" : 597
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "6bcad960e6a86f31cd19a0b58f211b4f"
+    }, {
+      "name" : "9628@DESKTOP-ARQUAKT.main(1)",
+      "children" : [ {
+        "name" : "Test03: Remove Item from Cart",
+        "uid" : "a721eb20ed852c3f",
+        "parentUid" : "0c224a23808eeef0f10414decc3e380a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605554761973,
+          "stop" : 1605554773240,
+          "duration" : 11267
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test02: Add Item to Cart",
+        "uid" : "4c6ca8b9127818f3",
+        "parentUid" : "0c224a23808eeef0f10414decc3e380a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605554751864,
+          "stop" : 1605554761217,
+          "duration" : 9353
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test05: Empty Search Popup Alert",
+        "uid" : "5c062c2eccc1d301",
+        "parentUid" : "0c224a23808eeef0f10414decc3e380a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605554778556,
+          "stop" : 1605554778769,
+          "duration" : 213
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test07: Verify Elements Location By Y Axis",
+        "uid" : "20a9c7251694b085",
+        "parentUid" : "0c224a23808eeef0f10414decc3e380a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605554781488,
+          "stop" : 1605554781927,
+          "duration" : 439
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test04: Sorting items",
+        "uid" : "5ba412c532f96152",
+        "parentUid" : "0c224a23808eeef0f10414decc3e380a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605554775263,
+          "stop" : 1605554777790,
+          "duration" : 2527
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test06: Verify nopCommerce Logo",
+        "uid" : "c6093bba8dc5b8b2",
+        "parentUid" : "0c224a23808eeef0f10414decc3e380a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605554779496,
+          "stop" : 1605554780845,
+          "duration" : 1349
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test01: Register to nopCommerce",
+        "uid" : "c2b7fc89ec488afe",
+        "parentUid" : "0c224a23808eeef0f10414decc3e380a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605554743249,
+          "stop" : 1605554750091,
+          "duration" : 6842
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "0c224a23808eeef0f10414decc3e380a"
+    }, {
+      "name" : "7172@DESKTOP-ARQUAKT.main(1)",
+      "children" : [ {
+        "name" : "Test02: Get Property From JSON Server",
+        "uid" : "ea3023b62e1d777a",
+        "parentUid" : "c2eda71c9ff09bf2bfea3d28542cdd9a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1605554871755,
+          "stop" : 1605554876338,
+          "duration" : 4583
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      }, {
+        "name" : "Test01: Add Section And Verify it",
+        "uid" : "743f7724ba6bab16",
+        "parentUid" : "c2eda71c9ff09bf2bfea3d28542cdd9a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1605554862913,
+          "stop" : 1605554871409,
+          "duration" : 8496
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      }, {
+        "name" : "Test04: Delete Section And Verify it",
+        "uid" : "d04f60ce99f2855d",
+        "parentUid" : "c2eda71c9ff09bf2bfea3d28542cdd9a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1605554880381,
+          "stop" : 1605554884402,
+          "duration" : 4021
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      }, {
+        "name" : "Test03: Update Section And Verify it",
+        "uid" : "fb26f12d22569b9d",
+        "parentUid" : "c2eda71c9ff09bf2bfea3d28542cdd9a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1605554876348,
+          "stop" : 1605554880371,
+          "duration" : 4023
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      } ],
+      "uid" : "c2eda71c9ff09bf2bfea3d28542cdd9a"
+    } ],
+    "uid" : "ccbf755ff85a00cc52934a3a3d61a434"
+  } ]
+}

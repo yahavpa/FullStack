@@ -1,0 +1,300 @@
+{
+  "uid" : "c908ec1f8d79352b",
+  "name" : "Test02: Get Property From JSON Server",
+  "fullName" : "SanityTests.JSONServerAPI.test02_GetProperty",
+  "historyId" : "cc52dc79bf0bce736bc135b1aced8220",
+  "time" : {
+    "start" : 1605554951848,
+    "stop" : 1605554953724,
+    "duration" : 1876
+  },
+  "description" : "Test Description: Get property from list JSON server",
+  "descriptionHtml" : "<p>Test Description: Get property from list JSON server</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1605554940049,
+      "stop" : 1605554946695,
+      "duration" : 6646
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description: Get property from list JSON server",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Get List From Server",
+      "time" : {
+        "start" : 1605554951848,
+        "stop" : 1605554953663,
+        "duration" : 1815
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get Data From Server",
+        "time" : {
+          "start" : 1605554951849,
+          "stop" : 1605554951923,
+          "duration" : 74
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "paramValues",
+          "value" : "/posts"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Extract Value From JSON Format",
+        "time" : {
+          "start" : 1605554951923,
+          "stop" : 1605554953663,
+          "duration" : 1740
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "response",
+          "value" : "io.restassured.internal.RestAssuredResponseImpl@2df71be0"
+        }, {
+          "name" : "path",
+          "value" : "title[0]"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "jPath",
+        "value" : "title[0]"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 2
+    }, {
+      "name" : "Verify Text with Text",
+      "time" : {
+        "start" : 1605554953663,
+        "stop" : 1605554953663,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actualText",
+        "value" : "Server"
+      }, {
+        "name" : "expectedText",
+        "value" : "Server"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Get List From Server",
+      "time" : {
+        "start" : 1605554953663,
+        "stop" : 1605554953724,
+        "duration" : 61
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get Data From Server",
+        "time" : {
+          "start" : 1605554953663,
+          "stop" : 1605554953698,
+          "duration" : 35
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "paramValues",
+          "value" : "/posts"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Extract Value From JSON Format",
+        "time" : {
+          "start" : 1605554953699,
+          "stop" : 1605554953723,
+          "duration" : 24
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "response",
+          "value" : "io.restassured.internal.RestAssuredResponseImpl@5d5ae6aa"
+        }, {
+          "name" : "path",
+          "value" : "title[0]"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "jPath",
+        "value" : "title[0]"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 2
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 7
+  },
+  "afterStages" : [ {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1605554954010,
+      "stop" : 1605554954014,
+      "duration" : 4
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1605554953740,
+      "stop" : 1605554953740,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "SanityTests.JSONServerAPI"
+  }, {
+    "name" : "testClass",
+    "value" : "SanityTests.JSONServerAPI"
+  }, {
+    "name" : "testMethod",
+    "value" : "test02_GetProperty"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "API Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "SanityTests.JSONServerAPI"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-ARQUAKT"
+  }, {
+    "name" : "thread",
+    "value" : "11256@DESKTOP-ARQUAKT.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "api"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ea3023b62e1d777a",
+      "status" : "broken",
+      "statusDetails" : "Connection refused: connect",
+      "time" : {
+        "start" : 1605554871755,
+        "stop" : 1605554876338,
+        "duration" : 4583
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "3bac050e9d04f2da",
+        "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20API/7/allure/#testresult/3bac050e9d04f2da",
+        "status" : "broken",
+        "statusDetails" : "Connection refused: connect",
+        "time" : {
+          "start" : 1605554871755,
+          "stop" : 1605554876338,
+          "duration" : 4583
+        }
+      }, {
+        "uid" : "ab1dbe453af53219",
+        "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20API/5/allure/#testresult/ab1dbe453af53219",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604955197818,
+          "stop" : 1604955200247,
+          "duration" : 2429
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c908ec1f8d79352b.json",
+  "parameterValues" : [ "api" ]
+}

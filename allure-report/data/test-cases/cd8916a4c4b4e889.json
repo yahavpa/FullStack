@@ -1,0 +1,113 @@
+{
+  "uid" : "cd8916a4c4b4e889",
+  "name" : "Test07: Verify Elements Location By Y Axis",
+  "fullName" : "SanityTests.nopCommerceWeb.test07_VerifyYAxis",
+  "historyId" : "a3583bf5758687015da8fbc53e336e7",
+  "time" : {
+    "start" : 1605554554277,
+    "stop" : 1605554554874,
+    "duration" : 597
+  },
+  "description" : "Test Description: Verify nopCommerce top-menu elements location by Y axis",
+  "descriptionHtml" : "<p>Test Description: Verify nopCommerce top-menu elements location by Y axis</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1605554504127,
+      "stop" : 1605554517817,
+      "duration" : 13690
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1605554554890,
+      "stop" : 1605554555459,
+      "duration" : 569
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1605554555465,
+      "stop" : 1605554557821,
+      "duration" : 2356
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "SanityTests.nopCommerceWeb"
+  }, {
+    "name" : "testClass",
+    "value" : "SanityTests.nopCommerceWeb"
+  }, {
+    "name" : "testMethod",
+    "value" : "test07_VerifyYAxis"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "SanityTests.nopCommerceWeb"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-ARQUAKT"
+  }, {
+    "name" : "thread",
+    "value" : "5028@DESKTOP-ARQUAKT.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "web"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cd8916a4c4b4e889.json",
+  "parameterValues" : [ "web" ]
+}
